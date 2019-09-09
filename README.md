@@ -70,7 +70,7 @@ $ npm install
 
 - Use jest inside `/packages/*` for each project and add this line to your `package.json` file
 
-```shell
+```js
     scripts: {
         "test:unit": "vue-cli-service test:unit --color"
     }
